@@ -13,3 +13,13 @@
 -   `npm run build` - Builds for production, emitting to `dist/`
 
 -   `npm run preview` - Starts a server at http://localhost:4173/ to test production build locally
+
+
+
+echo "# preact-app" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gh569/preact-app.git
+git push -u origin main
