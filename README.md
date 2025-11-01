@@ -1,20 +1,4 @@
-# `create-preact`
-
-<h2 align="center">
-  <img height="256" width="256" src="./src/assets/preact.svg">
-</h2>
-
-<h3 align="center">Get started using Preact and Vite!</h3>
-
-## Getting Started
-
--   `npm run dev` - Starts a dev server at http://localhost:5173/
-
--   `npm run build` - Builds for production, emitting to `dist/`
-
--   `npm run preview` - Starts a server at http://localhost:4173/ to test production build locally
-
-
+…or create a new repository on the command line
 
 echo "# preact-app" >> README.md
 git init
@@ -22,4 +6,11 @@ git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/gh569/preact-app.git
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/gh569/preact-app.git
+git branch -M main
 git push -u origin main
